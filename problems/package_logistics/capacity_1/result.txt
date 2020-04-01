@@ -1,0 +1,71 @@
+
+Parsing domain "package_logistics" done successfully ...
+Parsing problem "pack_log_lab04" done successfully ...
+
+Preprocessing ...
+
+time:    0,       22 facts,          0 and exlusive pairs (0.0015s)
+                  26 ops,           10 exlusive pairs
+time:    1,       26 facts,         10 and exlusive pairs (0.0022s)
+                  43 ops,          228 exlusive pairs
+time:    2,       31 facts,         42 and exlusive pairs (0.0016s)
+                  59 ops,          673 exlusive pairs
+time:    3,       35 facts,         71 and exlusive pairs (0.0018s)
+                  78 ops,         1438 exlusive pairs
+time:    4,       46 facts,        232 and exlusive pairs (0.0023s)
+                 108 ops,         3249 exlusive pairs
+time:    5,       54 facts,        342 and exlusive pairs (0.0035s)
+                 127 ops,         4402 exlusive pairs
+time:    6,       57 facts,        287 and exlusive pairs (0.0042s)
+                 133 ops,         4242 exlusive pairs
+time:    7,       57 facts,        149 and exlusive pairs (0.0036s)
+                 133 ops,         3683 exlusive pairs
+
+goals first reachable in 8 times steps
+
+time:    8,       57 facts,        120 and exlusive pairs (0.0025s)
+                 133 ops,         3546 exlusive pairs
+time:    9,       57 facts,        120 and exlusive pairs (0.0024s)
+                 133 ops,         3546 exlusive pairs
+time:   10,       57 facts,        120 and exlusive pairs (0.0025s)
+                 133 ops,         3546 exlusive pairs
+
+graph has leveled off! wave front mechanism is taking over
+
+expanding wave front to level   11
+expanding wave front to level   12
+expanding wave front to level   13
+expanding wave front to level   14
+expanding wave front to level   15
+
+found plan as follows:
+
+time step    0: MOVE C1 C4
+time step    1: LOAD D C4
+time step    2: MOVE C4 C1
+time step    3: LOAD A C1
+                UNLOAD D C1
+time step    4: MOVE C1 C3
+time step    5: LOAD C C3
+time step    6: MOVE C3 C5
+time step    7: LOAD E C5
+                UNLOAD A C5
+time step    8: MOVE C5 C3
+time step    9: MOVE C3 C2
+time step   10: LOAD B C2
+                UNLOAD E C2
+                UNLOAD C C2
+time step   11: MOVE C2 C3
+time step   12: MOVE C3 C6
+time step   13: UNLOAD B C6
+time step   14: MOVE C6 C3
+time step   15: MOVE C3 C1
+
+number of actions tried :       364350 
+number of noops tried   :      1302650 
+
+Time spent :     0.05 seconds preprocessing 
+                 0.03 seconds build graph 
+                 0.01 seconds calculating exclusions 
+                 0.67 seconds searching graph 
+                 0.75 seconds total time 
